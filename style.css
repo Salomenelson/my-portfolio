@@ -1,0 +1,552 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: inherit;
+    text-decoration: none ;
+}
+
+body{
+    font-family: serif;
+}
+
+
+/* header section */
+header{
+    height: 10vh;
+    width: 100%;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 70px 0 70px ;
+    background-image: url('/img/Product\ Admin\ Image1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.initials{
+    height: 45px;
+    width: 45px;
+    background-color:#d10516;
+    border-radius: 50%;
+    color: white;
+    font-size: 1.5rem;
+    padding: 10px 17px 10px 17px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.navbar{
+    display: flex;
+    gap: 30px;
+}
+.navbar li{
+    list-style: none ;
+    cursor: pointer;
+}
+.navbar-btn{
+    height: 35px;
+    width: 80px;
+    border: none;
+    color: white;
+    background-color: #d10516;
+    border-radius: 5px;
+}
+
+
+/* hero section */
+.hero{
+    height:120vh ;
+    width: 100%;
+    background-color: white;
+    padding: 30px 70px 30px 70px;
+    position: relative;
+}
+.hero-hero{
+    display: flex;
+    justify-content: space-between;
+}
+.hero_info h1{
+    font-size: 50px;
+    font-weight: 200;
+}
+.hero_info p{
+    font-size: 14px;
+}
+.hero_info button{
+    height: 35px;
+    width: 85px;
+    border: none;
+    color: white;
+    background-color: #d10516;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.hero_info_number{
+    display: flex;
+    gap: 10px;
+    margin-top: 90px;
+}
+.hero_info_number div{
+    width: 150px;
+    height: 70px;
+    background-color: #ffc6ca;
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+.hero img{
+    width: 280px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: white;
+}
+
+
+/* Card section */
+.card{
+    height: 50%;
+    width: 60%;
+    position: absolute;
+    top: 600px;
+    left: 270px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 5px;
+}
+.card img{
+    width: 180px;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 5px;
+}
+.small-card{
+    height: 40px;
+    width: 150px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    position: absolute;
+    left: 67px;
+    top: 260px;
+    color: #d10516;
+    padding: 10px;
+}
+
+.small-card i{
+    padding: 0 5px 0 5px;
+}
+.card h3{
+    font-size: 22px;
+    padding: 5px 0 5px 0;
+    font-weight: 400;
+}
+.card p{
+    padding: 5px 0 5px 0;
+}
+.card-buttons{
+    display: flex;
+    gap: 10px;
+}
+.card button{
+    height: 35px;
+    width: 85px;
+    border: none;
+    color: white;
+    background-color: #d10516;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.card .card-button{
+    height: 35px;
+    width: 120px;
+    border: #d10516 1px solid;
+    color: #d10516;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+
+/* Work Process Section */
+.work-process{
+    height: 100vh;
+    width: 100%;
+    background-color: #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 70px 100px 70px
+}
+.work-process-h3{
+    font-size: 27px;
+    font-weight: 200;
+}
+.work-process h3, p{
+    padding: 5px 0 5px 0;
+}
+.work-process-box{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.work-process-box-box{
+    height: 170px;
+    width: 170px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-size: 12px;
+    padding: 15px;
+}
+.work-process-box-box h3{
+    font-size: 18px;
+    font-weight: 300;
+}
+.portfolio-section{
+    height: 100vh;
+    background-color: white;
+}
+
+
+/* Portfolio section */
+.portfolio-section{
+    width: 100%;
+    height: 180vh;
+    background-color: white;
+    padding: 50px 70px 50px 70px;
+
+}
+.portfolio-section-p{
+    color: #bdbaba;
+}
+.portfolio-section-info{
+    text-align: center ;
+    padding-bottom: 30px;
+}
+.portfolio-section-info h3{
+    font-size: 27px;
+    font-weight: 200;
+}
+.portfolio-section-box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.portfolio-section-box-images{
+    width: 400px;
+    height: 450px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 5px;
+}
+.portfolio-section-box-images img{
+    width: 400px;
+}
+.portfolio-section-box-images h6{
+    color: #d1d0d0;
+    padding: 5px 15px 5px 15px;
+}
+.portfolio-section-box-images-h4-p{
+    padding: 5px 15px 5px 15px;
+}
+.portfolio-section-box-images button{
+    margin: 5px 15px 5px 15px ;
+    height: 35px;
+    width: 100px;
+    border: #d10516 1px solid;
+    color: #d10516;
+    background-color: white;
+    border-radius: 5px;
+}
+.portfolio-section .btn{
+    height: 35px;
+    width: 100px;
+    border: none;
+    color: white;
+    background-color: #d10516;
+    margin: 20px 570px 20px 570px;
+    border-radius: 5px;
+}
+
+
+/* Project idea section */
+.project-idea{
+    height: 50vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 50px 70px 50px 70px;
+    text-align: center;
+}
+.project-idea button{
+    height: 35px;
+    width: 200px;
+    border: none;
+    color: white;
+    background-color: #d10516;
+    border-radius: 5px;
+}
+.project-idea-text{
+    padding: 10px 0 10px 0;
+    font-size: 33px;
+}
+.project-idea-text-p{
+    padding: 10px 0 10px 0;
+    color: #bdbaba;
+}
+
+
+/* Blog section */
+.blog-section{
+    min-height: 70vh;
+    width: 100%;
+    background-color: white;
+    padding: 50px 70px 50px 70px;
+    background-image: linear-gradient(rgba(36, 34, 34, 0.6)), url('/img/Blog\ Image4.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.blog-section-p{
+    color: #bdbaba;
+}
+.blog-section-info{
+    text-align: center ;
+    padding-bottom: 30px;
+    color: white;
+}
+.blog-section-box{
+    display: flex;
+    gap: 20px;
+}
+.blog-section-box-box{
+    width: 290px;
+    height: 302px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 5px;
+}
+.blog-section-box-box-text{
+    padding: 5px;
+}
+.blog-section-box-box-text h6{
+    color: #bdbaba;
+}
+.blog-section-box-box img{
+    width: 290px;
+    border-radius: 5px;
+}
+
+
+/* what I do section */
+.what-i-do-section{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 70px 100px 70px;
+    background-color: #eee;
+}
+.what-i-do h3{
+    font-size: 27px;
+    font-weight: 200;
+    padding-bottom: 10px;
+}
+.what-i-do button{
+    height: 35px;
+    width: 85px;
+    border: none;
+    color: white;
+    background-color: #d10516;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.what-i-do-box-box{
+    height: 100px; 
+    width: 500px; 
+    background-color: white;
+    border-radius: 5px;
+    margin: 15px 0 15px 0;
+    padding: 15px;
+    border-left: 5px #d10516 solid;
+}
+
+
+/* happy-clients-section */
+.happy-clients-section{
+    height: 50vh;
+    width: 100%;
+    background-color: white;
+    padding: 50px 70px 50px 70px;
+}
+.happy-clients-section-p{
+    color: #bdbaba;
+}
+.happy-clients-info{
+    text-align: center;
+    padding-bottom: 50px;  
+}
+.happy-clients-info h3{
+    font-size: 27px;
+    padding-bottom: 5px;
+    font-weight: 200;
+}
+.clients-logo{
+    display: flex;
+    justify-content: space-evenly;
+}
+.clients-logo-img{
+    width: 130px;
+    height: 50px;
+}
+.clients-logo-spotify{
+    width: 130px;
+    height: 50px;
+    object-fit: cover;
+}
+
+
+/* Testimonial section */
+.testimonial-section{
+    height: 110vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 50px 70px 0 70px;
+}
+.testimonial-section-p{
+    color: #bdbaba;
+}
+.testimonial-p{
+    padding: 20px 0 10px 0;
+    text-align: center;
+}
+.testimonial-h5{
+    padding: 5px 0 5px 0;
+    font-size: 13px;
+}
+.testimonial-h6{
+    font-size: 13px;
+    font-weight: 200;
+}
+.testimonial-card{
+    height: 120%;
+    width: 90%;
+    background-color: white;
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+    padding: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 5px;
+}
+.testimonial-card-left{
+    width: 50%;
+}
+.testimonial-card-left h4{
+    font-size: 29px;
+    padding-bottom: 20px;
+}
+.testimonial-card-left-box{
+    height: 15%;
+    width: 35%;
+    padding: 10px;
+    margin: 20px 0 30px 0;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 5px;
+}
+.testimonial-card-left-box h5, .testimonial-card-left-contact h5{
+    font-size: 12px;
+    color: #bdbaba;
+}
+.testimonial-card-left-icons{
+    display: flex;
+    gap: 20px;
+}
+.fa-location-dot, .fa-linkedin-in, .fa-behance, .fa-instagram {
+    color: #d10516;
+}
+.fa-square-facebook{
+    color: #d10516;
+}
+.testimonial-card-left-contact{
+    padding: 0 10px 0 10px;
+}
+.testimonial-card-left-contact h6{
+    font-size: 14px;
+    padding-bottom: 30px;
+    font-weight: 500;
+}
+.testimonial-card-left-box h6{
+    font-size: 15px;
+
+}
+.testimonial-card-right{
+    width: 50%;
+}
+form{
+    margin-top: 20px;
+}
+.form-input{
+    display: block;
+    border: none;
+    border-bottom: 2px #bdbaba solid;
+    width: 100% ;
+    margin-bottom: 10px;
+}
+#name{
+    border-color: #d10516;
+}
+.form-flex{
+    display: flex;
+    gap: 10px;
+}
+.form-flex-input {
+    display: block;
+    border: none;
+    border-bottom: 2px #bdbaba solid;
+    width: 100%;
+    margin-bottom: 10px;
+}
+form button{
+    height: 35px;
+    width: 85px;
+    border: none;
+    color: white;
+    background-color: #d10516;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+
+/* footer section */
+footer{
+    height: 30vh;
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 70px 0px 70px ;
+    
+}
+footer h6{
+    font-size: 12px;
+}
