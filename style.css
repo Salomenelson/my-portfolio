@@ -118,10 +118,10 @@ nav{
     height: 50%;
     width: 60%;
     position: absolute;
-    top: 600px;
-    left: 270px;
+    top: 92%;
+    left: 20%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    padding: 50px;
+    padding: 3rem;
     display: flex;
     justify-content: space-between;
     background-color: white;
@@ -139,8 +139,8 @@ nav{
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     position: absolute;
-    left: 67px;
-    top: 260px;
+    left: 8%;
+    top: 80%;
     color: #d10516;
     padding: 10px;
 }
@@ -277,7 +277,9 @@ nav{
     border: none;
     color: white;
     background-color: #d10516;
-    margin: 20px 570px 20px 570px;
+    /* margin: 20px 570px 20px 570px; */
+    /* margin: 0 auto; */
+    margin: 2% 50% 2% 50%;
     border-radius: 5px;
 }
 
@@ -428,6 +430,7 @@ nav{
     align-items: center;
     background-color: white;
     padding: 50px 70px 0 70px;
+    position: relative;
 }
 .testimonial-section-p{
     color: #bdbaba;
@@ -445,8 +448,8 @@ nav{
     font-weight: 200;
 }
 .testimonial-card{
-    height: 120%;
-    width: 90%;
+    height: 65%;
+    width: 82%;
     background-color: white;
     margin-top: 50px;
     display: flex;
@@ -454,6 +457,8 @@ nav{
     padding: 50px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     border-radius: 5px;
+    position: absolute;
+    top: 32%;
 }
 .testimonial-card-left{
     width: 50%;
