@@ -128,7 +128,7 @@ nav{
     border-radius: 5px;
 }
 .card img{
-    width: 180px;
+    width: 80%;
     position: relative;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     border-radius: 5px;
@@ -140,7 +140,7 @@ nav{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     position: absolute;
     left: 8%;
-    bottom: 20%;
+    bottom: 15%;
     color: #d10516;
     padding: 10px;
 }
@@ -224,7 +224,7 @@ nav{
 /* Portfolio section */
 .portfolio-section{
     width: 100%;
-    height: 180vh;
+    height: 190vh;
     background-color: white;
     padding: 50px 70px 50px 70px;
 
