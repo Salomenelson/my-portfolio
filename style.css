@@ -67,7 +67,7 @@ nav{
 
 /* hero section */
 .hero{
-    height:140vh ;
+    height:135vh ;
     width: 100%;
     background-color: white;
     padding: 30px 70px 30px 70px;
@@ -118,7 +118,7 @@ nav{
     height: 60%;
     width: 60%;
     position: absolute;
-    top: 105%;
+    top: 95%;
     left: 20%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     padding: 3rem;
@@ -140,7 +140,7 @@ nav{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     position: absolute;
     left: 8%;
-    top: 68%;
+    bottom: 20%;
     color: #d10516;
     padding: 10px;
 }
