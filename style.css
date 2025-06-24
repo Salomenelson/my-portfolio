@@ -473,7 +473,7 @@ nav{
     font-size: 13px;
 }
 .testimonial-card{
-    height: 65%;
+    height: 69%;
     width: 78%;
     margin-top: 50px;
     display: flex;
@@ -569,7 +569,7 @@ form button{
 
 /* footer section */
 footer{
-    height: 25vh;
+    height: 30vh;
     background-color: #212C39;
     color: white;
     width: 100%;
