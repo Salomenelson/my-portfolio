@@ -18,38 +18,35 @@ body{
 header{
     height: 10vh;
     width: 100%;
-    color: black;
+    color: white;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 0 70px 0 70px ;
-    background-image: url('/img/Product\ Admin\ Image1.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-color: #212C39;
 }
 .logo{
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 20px;
+    color: white;
 }
 .initials{
     height: 45px;
     width: 45px;
-    background-color:#d10516;
+    background-color:#EAD8BD;
     border-radius: 50%;
-    color: white;
+    color: black;
     font-size: 1.5rem;
     padding: 10px 17px 10px 17px;
 }
 nav{
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 20px;
 }
 .navbar{
     display: flex;
-    gap: 30px;
+    gap: 40px;
 }
 .navbar li{
     list-style: none ;
@@ -59,23 +56,24 @@ nav{
     height: 35px;
     width: 80px;
     border: none;
-    color: white;
-    background-color: #d10516;
+    color: black;
+    background-color:#EAD8BD;
     border-radius: 5px;
 }
 
 
 /* hero section */
 .hero{
-    height:135vh ;
+    height:125vh ;
     width: 100%;
-    background-color: white;
-    padding: 30px 70px 30px 70px;
+    background-color: #EAD8BD;
+    padding: 30px 0 30px 0;
     position: relative;
 }
 .hero-hero{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    
 }
 .hero_info h1{
     font-size: 50px;
@@ -101,7 +99,8 @@ nav{
 .hero_info_number div{
     width: 150px;
     height: 70px;
-    background-color: #ffc6ca;
+    background-color:white;
+    color: black;
     text-align: center;
     padding: 10px 0 10px 0;
 }
@@ -116,45 +115,42 @@ nav{
 /* Card section */
 .card{
     height: 60%;
-    width: 60%;
+    width: 78%;
     position: absolute;
-    top: 95%;
-    left: 20%;
+    top: 88%;
+    left: 11%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     padding: 3rem;
     display: flex;
-    justify-content: space-between;
-    background-color: white;
+    justify-content: center;
+    gap: 50px;
     border-radius: 5px;
 }
 .card img{
-    width: 80%;
-    /* position: relative; */
+    width: 110%;
+    height: 87%;
+    object-fit: cover;
+    object-position: center;
+    background-color:#EAD8BD;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     border-radius: 5px;
 }
 .small-card{
-    height: 40px;
-    width: 150px;
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    position: absolute;
-    left: 8%; 
-    bottom: 17%;
+    bottom: 25%;
     color: #d10516;
     padding: 10px;
 }
 
 .small-card i{
     padding: 0 5px 0 5px;
+    font-size: 20px;
 }
-.card h3{
-    font-size: 22px;
+.card h2{
+    font-size: 27px;
     padding: 5px 0 5px 0;
-    font-weight: 400;
 }
 .card p{
-    padding: 5px 0 5px 0;
+    padding: 10px 0 10px 0;
 }
 .card-buttons{
     display: flex;
@@ -186,15 +182,14 @@ nav{
     width: 100%;
     background-color: #eee;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    padding: 100px 70px 100px 70px
+    padding: 200px 0 100px 0;
 }
-.work-process-h3{
+.work-process-h2{
     font-size: 27px;
-    font-weight: 200;
 }
-.work-process h3, p{
+.work-process h2, p{
     padding: 5px 0 5px 0;
 }
 .work-process-box{
@@ -206,39 +201,51 @@ nav{
     height: 170px;
     width: 170px;
     background-color: white;
+    color: #212C39;
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     font-size: 12px;
     padding: 15px;
 }
+.work-process-box-box-icon{
+    background-color:#EAD8BD;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    margin-bottom: 5px;
+}
+.fa-laptop-code, .fa-pen, .fa-book, .fa-chart-line{
+    font-size: 30px;
+    color: #212C39;
+}
 .work-process-box-box h3{
     font-size: 18px;
-    font-weight: 300;
-}
-.portfolio-section{
-    height: 100vh;
-    background-color: white;
 }
 
 
 /* Portfolio section */
 .portfolio-section{
     width: 100%;
-    height: 195vh;
+    height: 170vh;
     background-color: white;
-    padding: 50px 70px 50px 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 }
 .portfolio-section-p{
-    color: #bdbaba;
+    color: #212C39;
 }
 .portfolio-section-info{
     text-align: center ;
     padding-bottom: 30px;
 }
-.portfolio-section-info h3{
+.portfolio-section-info h2{
     font-size: 27px;
-    font-weight: 200;
 }
 .portfolio-section-box{
     display: grid;
@@ -246,21 +253,29 @@ nav{
     gap: 10px;
 }
 .portfolio-section-box-images{
-    width: 400px;
-    height: 450px;
+    width: 335px;
+    height: 385px;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     border-radius: 5px;
 }
 .portfolio-section-box-images img{
-    width: 400px;
+    width: 335px;
 }
-.portfolio-section-box-images h6{
-    color: #d1d0d0;
+.portfolio-section-box-images h4{
+    color: #212C39;
+    padding: 5px 15px 5px 15px;
+    font-size: 11px;
+}
+.portfolio-section-box-images h3{
+    font-size: 18px;
+}
+.portfolio-section-box-images-h3-p{
     padding: 5px 15px 5px 15px;
 }
-.portfolio-section-box-images-h4-p{
-    padding: 5px 15px 5px 15px;
+
+.portfolio-section-box-images p{
+    font-size: 13px;
 }
 .portfolio-section-box-images button{
     margin: 5px 15px 5px 15px ;
@@ -277,7 +292,7 @@ nav{
     border: none;
     color: white;
     background-color: #d10516;
-    margin: 2% 45% 2% 45%;
+    margin-top:10px ;
     border-radius: 5px;
 } 
 
@@ -286,10 +301,12 @@ nav{
 .project-idea{
     height: 50vh;
     width: 100%;
-    background-color: black;
-    color: white;
-    padding: 50px 70px 50px 70px;
-    text-align: center;
+    background-color: #EAD8BD;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .project-idea button{
     height: 35px;
@@ -305,7 +322,7 @@ nav{
 }
 .project-idea-text-p{
     padding: 10px 0 10px 0;
-    color: #bdbaba;
+    color: #212C39;
 }
 
 
@@ -313,27 +330,31 @@ nav{
 .blog-section{
     min-height: 70vh;
     width: 100%;
-    background-color: white;
-    padding: 50px 70px 50px 70px;
-    background-image: linear-gradient(rgba(36, 34, 34, 0.6)), url('/img/Blog\ Image4.png');
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .blog-section-p{
-    color: #bdbaba;
+    color: #212C39;
 }
 .blog-section-info{
     text-align: center ;
     padding-bottom: 30px;
-    color: white;
+    color: black;
 }
+.blog-section-info h2{
+    font-size: 27px;
+}
+
 .blog-section-box{
     display: flex;
-    gap: 20px;
+    gap: 10px;
 }
 .blog-section-box-box{
-    width: 290px;
-    height: 302px;
+    width: 249px;
+    height: 289px;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     border-radius: 5px;
@@ -341,28 +362,30 @@ nav{
 .blog-section-box-box-text{
     padding: 5px;
 }
-.blog-section-box-box-text h6{
-    color: #bdbaba;
+.blog-section-box-box-text h4{
+    color: #212C39;
+}
+
+.blog-section-box-box-text p{
+    font-size: 14px;
 }
 .blog-section-box-box img{
-    width: 290px;
+    width: 249px;
     border-radius: 5px;
 }
 
 
 /* what I do section */
 .what-i-do-section{
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    padding: 100px 70px 100px 70px;
     background-color: #eee;
 }
-.what-i-do h3{
+.what-i-do h2{
     font-size: 27px;
-    font-weight: 200;
     padding-bottom: 10px;
 }
 .what-i-do button{
@@ -376,7 +399,7 @@ nav{
 }
 .what-i-do-box-box{
     height: 100px; 
-    width: 500px; 
+    width: 470px; 
     background-color: white;
     border-radius: 5px;
     margin: 15px 0 15px 0;
@@ -389,32 +412,34 @@ nav{
 .happy-clients-section{
     height: 50vh;
     width: 100%;
-    background-color: white;
-    padding: 50px 70px 50px 70px;
+    background-color: #EAD8BD;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .happy-clients-section-p{
-    color: #bdbaba;
+    color: #212C39;
 }
 .happy-clients-info{
     text-align: center;
     padding-bottom: 50px;  
 }
-.happy-clients-info h3{
+.happy-clients-info h2{
     font-size: 27px;
     padding-bottom: 5px;
-    font-weight: 200;
 }
 .clients-logo{
     display: flex;
-    justify-content: space-evenly;
+    gap: 30px;
 }
 .clients-logo-img{
-    width: 130px;
-    height: 50px;
+    width: 145px;
+    height: 65px;
 }
 .clients-logo-spotify{
-    width: 130px;
-    height: 50px;
+    width: 145px;
+    height: 65px;
     object-fit: cover;
 }
 
@@ -426,29 +451,30 @@ nav{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: white;
-    padding: 50px 70px 0 70px;
+    background-color: #EAD8BD;
     position: relative;
 }
+
+.testimonial-section h2{
+    font-size: 23px;
+}
 .testimonial-section-p{
-    color: #bdbaba;
+    color: #212C39;
 }
 .testimonial-p{
     padding: 20px 0 10px 0;
     text-align: center;
 }
-.testimonial-h5{
+.testimonial-h3{
     padding: 5px 0 5px 0;
     font-size: 13px;
 }
-.testimonial-h6{
+.testimonial-h4{
     font-size: 13px;
-    font-weight: 200;
 }
 .testimonial-card{
     height: 65%;
-    width: 82%;
-    background-color: white;
+    width: 78%;
     margin-top: 50px;
     display: flex;
     gap: 30px;
@@ -456,27 +482,28 @@ nav{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     border-radius: 5px;
     position: absolute;
-    top: 32%;
+    top: 33%;
+    color: black;
 }
 .testimonial-card-left{
     width: 50%;
 }
-.testimonial-card-left h4{
+.testimonial-card-left h3{
     font-size: 29px;
     padding-bottom: 20px;
 }
 .testimonial-card-left-box{
-    height: 15%;
-    width: 35%;
+    height: 18%;
+    width: 45%;
     padding: 10px;
     margin: 20px 0 30px 0;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     border-radius: 5px;
 }
-.testimonial-card-left-box h5, .testimonial-card-left-contact h5{
-    font-size: 12px;
-    color: #bdbaba;
+.testimonial-card-left-box h4, .testimonial-card-left-contact h4{
+    font-size: 15px;
+    color: #212C39;
 }
 .testimonial-card-left-icons{
     display: flex;
@@ -484,20 +511,20 @@ nav{
 }
 .fa-location-dot, .fa-linkedin-in, .fa-behance, .fa-instagram {
     color: #d10516;
+    font-size: 18px;
 }
 .fa-square-facebook{
     color: #d10516;
+    font-size: 18px;
+
 }
-.testimonial-card-left-contact{
-    padding: 0 10px 0 10px;
-}
-.testimonial-card-left-contact h6{
+
+.testimonial-card-left-contact p{
     font-size: 14px;
     padding-bottom: 30px;
-    font-weight: 500;
 }
-.testimonial-card-left-box h6{
-    font-size: 15px;
+.testimonial-card-left-box p{
+    font-size: 14px;
 
 }
 .testimonial-card-right{
@@ -509,9 +536,10 @@ form{
 .form-input{
     display: block;
     border: none;
-    border-bottom: 2px #bdbaba solid;
+    border-bottom: 2px black solid;
     width: 100% ;
     margin-bottom: 10px;
+    background-color: #EAD8BD;
 }
 #name{
     border-color: #d10516;
@@ -523,9 +551,10 @@ form{
 .form-flex-input {
     display: block;
     border: none;
-    border-bottom: 2px #bdbaba solid;
+    border-bottom: 2px black solid;
     width: 100%;
     margin-bottom: 10px;
+    background-color: #EAD8BD;
 }
 form button{
     height: 35px;
@@ -540,14 +569,14 @@ form button{
 
 /* footer section */
 footer{
-    height: 30vh;
-    background-color: black;
+    height: 25vh;
+    background-color: #212C39;
     color: white;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    padding: 0 70px 0px 70px ;
+    padding-top: 10px;
     
 }
 footer h6{
