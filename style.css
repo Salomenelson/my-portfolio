@@ -64,7 +64,7 @@ nav{
 
 /* hero section */
 .hero{
-    height:125vh ;
+    height:130vh ;
     width: 100%;
     background-color: #EAD8BD;
     padding: 30px 0 30px 0;
@@ -114,10 +114,10 @@ nav{
 
 /* Card section */
 .card{
-    height: 60%;
+    height: 65%;
     width: 78%;
     position: absolute;
-    top: 88%;
+    top: 85%;
     left: 11%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     padding: 3rem;
@@ -136,14 +136,21 @@ nav{
     border-radius: 5px;
 }
 .small-card{
-    bottom: 25%;
+    position: absolute;
+    bottom: 20%;
     color: #d10516;
     padding: 10px;
+    width: 250px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EAD8BD;
 }
 
 .small-card i{
     padding: 0 5px 0 5px;
-    font-size: 20px;
+    font-size: 15px;
 }
 .card h2{
     font-size: 27px;
@@ -446,7 +453,7 @@ nav{
 
 /* Testimonial section */
 .testimonial-section{
-    height: 110vh;
+    height: 120vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -482,7 +489,7 @@ nav{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     border-radius: 5px;
     position: absolute;
-    top: 33%;
+    top: 30%;
     color: black;
 }
 .testimonial-card-left{
@@ -500,33 +507,54 @@ nav{
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
-.testimonial-card-left-box h4, .testimonial-card-left-contact h4{
-    font-size: 15px;
-    color: #212C39;
+.testimonial-card-left-icon{
+    background-color:red;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    margin-bottom: 5px;
 }
+.testimonial-card-left-contact{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 20px;
+
+}
+.testimonial-card-left-contact p{
+    font-size: 14px;
+}
+.testimonial-card-left-box-p-bold{
+    font-weight: bold;
+}
+
 .testimonial-card-left-icons{
     display: flex;
     gap: 20px;
 }
-.fa-location-dot, .fa-linkedin-in, .fa-behance, .fa-instagram {
+.testimonial-card-left-box p{
+    font-size: 14px;
+    padding: 5px 0 5px 0;
+}
+.fa-linkedin-in, .fa-behance, .fa-instagram {
     color: #d10516;
-    font-size: 18px;
+    font-size: 15px;
 }
 .fa-square-facebook{
     color: #d10516;
-    font-size: 18px;
+    font-size: 15px;
 
 }
 
-.testimonial-card-left-contact p{
-    font-size: 14px;
-    padding-bottom: 30px;
-}
-.testimonial-card-left-box p{
-    font-size: 14px;
 
-}
 .testimonial-card-right{
     width: 50%;
 }
